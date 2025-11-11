@@ -1,0 +1,109 @@
+/* CONTACT SECTION */
+.contact-section {
+  padding: 60px 0 40px;
+  background-color: #fff;
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+/* CONTACT FORM */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.contact-form button {
+  max-width: 300px;
+  padding: 10px 40px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  margin: 10px auto 0;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
+
+/* CONTACT BOX - VIỀN ĐỎ/XÁM */
+.contact-box {
+  max-width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 40px 0;
+  margin: 0 0 50px 0;
+}
+
+.contact-box-content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-box-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.contact-box-content a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.contact-box-content a:hover {
+  color: #666;
+}
+
+/* CONTACT INFO - Cũ (ẩn nếu dùng contact-box) */
+.contact-info {
+  display: none;
+}
